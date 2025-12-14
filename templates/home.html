@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GradeCast AI - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <div style="font-size: 3rem; margin-bottom: 10px;">🚀</div>
+        
+        <h1>GradeCast AI</h1>
+        <p class="subtitle">Advanced Academic Performance Forecasting</p>
+
+        <p style="color: #dfe6e9; line-height: 1.6; margin-bottom: 30px;">
+            Harness the power of Machine Learning to analyze study habits. 
+            Predict your final grades and pass probability instantly.
+        </p>
+
+        <a href="{{ url_for('predict') }}" class="btn">Start Prediction</a>
+
+        <div class="credits">
+            Designed by <strong>Dhanush (Prince Vegeta)</strong> <br>
+            Majin Studio
+        </div>
+    </div>
+
+</body>
+</html>
